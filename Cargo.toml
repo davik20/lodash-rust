@@ -1,0 +1,10 @@
+[package]
+name = "lodash_rust"
+version = "0.1.0"
+authors = ["Charles Chiakwa", "Onyeji Victor"]
+
+
+
+[[bin]]
+name="main"
+path= "src/main.rs"

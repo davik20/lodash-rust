@@ -1,12 +1,10 @@
-
 pub fn from_str(s: &str) -> String {
     return s.chars().flat_map(|c| c.to_lowercase()).collect();
 }
 
-pub fn new(s:String) -> String {
+pub fn new(s: String) -> String {
     return s.chars().flat_map(|c| c.to_lowercase()).collect();
 }
-
 
 #[cfg(test)]
 mod tests {
